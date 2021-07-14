@@ -874,7 +874,9 @@ a{
     .main .gallery{
         display: block;
     }
-
+       .text-carousel{
+            display: none !important;
+        }
     .main .gallery .img{
         display: block;
         width: 100%;
@@ -971,6 +973,10 @@ a{
     .inner-width .header{
         font-size: 25px;
         letter-spacing: 0;
+    }
+    
+    .text-carousel{
+        display: none !important;
     }
 
     #home .content  p::after{
